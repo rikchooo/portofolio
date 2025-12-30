@@ -37,7 +37,7 @@ export default function Footer() {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/rikcho',
+      url: 'https://linkedin.com/in/',
       icon: <FaLinkedin className="w-5 h-5" />,
       color: 'hover:text-[#0A66C2] hover:bg-[#0A66C2]/10',
       gradient: 'from-[#0A66C2]/20 to-[#0A66C2]/10'
@@ -46,7 +46,7 @@ export default function Footer() {
       name: 'TikTok',
       url: 'https://tiktok.com/@rikcho_',
       icon: <FaTiktok className="w-5 h-5" />,
-      color: 'hover:text-[#000000] hover:bg-[#000000]/10',
+      color: 'hover:text-[#ff0050] hover:bg-[#000000]/10',
       gradient: 'from-[#000000]/20 to-[#FF0050]/10'
     },
   ];

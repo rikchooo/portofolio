@@ -17,12 +17,7 @@ const projects = [
     link: '#',
     github: '#',
     image: '/images/elearning.jpg',
-    featured: true,
-    stats: {
-      users: '10K+',
-      performance: '40% faster',
-      rating: '4.8/5'
-    }
+    featured: true
   },
   {
     title: 'E-Commerce Dashboard',
@@ -31,12 +26,7 @@ const projects = [
     link: '#',
     github: '#',
     image: '/images/ecommerce.jpg',
-    featured: true,
-    stats: {
-      orders: '5K+ monthly',
-      revenue: '$500K+',
-      growth: '35% YoY'
-    }
+    featured: true
   }
 ];
 
@@ -88,7 +78,7 @@ const projects = [
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             <span className="text-gray-300">{t('projectsTitle')}</span>
             <span className="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500">
-              Portfolio
+              Port0folio
             </span>
           </h2>
           
