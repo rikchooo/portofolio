@@ -13,19 +13,19 @@ const projects = [
   {
     title: 'E-Learning Platform',
     description: 'A modern learning platform with course management, video streaming, and AI-powered progress tracking. Features interactive quizzes, peer collaboration, and mobile-first design.',
-    tech: ['Next.js 14', 'React', 'Tailwind CSS', 'Node.js', 'MongoDB', 'Socket.io'],
+    tech: ['Next.js 14', 'React.js', 'Tailwind CSS', 'Node.js', 'PostgreSQL'],
     link: '#',
     github: '#',
-    image: '/images/elearning.jpg',
+    image: '/images/E-Learning.png',
     featured: true
   },
   {
     title: 'E-Commerce Dashboard',
     description: 'Real-time admin dashboard for managing multi-vendor marketplace with advanced analytics, inventory management, and automated reporting system.',
-    tech: ['React', 'TypeScript', 'Redux', 'Express', 'PostgreSQL', 'Chart.js'],
+    tech: ['React.js', 'Tailwind CSS','Express', 'MySQL'],
     link: '#',
     github: '#',
-    image: '/images/ecommerce.jpg',
+    image: '/images/E-Commerce.png',
     featured: true
   }
 ];
@@ -78,7 +78,7 @@ const projects = [
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             <span className="text-gray-300">{t('projectsTitle')}</span>
             <span className="block bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500">
-              Port0folio
+              Portofolio
             </span>
           </h2>
           
