@@ -273,9 +273,9 @@ export default function Skills() {
             
             <div className="space-y-12">
               {[
-                { year: '2024-Now', skills: ['Next.js 14', 'TypeScript', 'Tailwind CSS'], icon: '🚀' },
-                { year: '2022-Now', skills: ['React', 'Node.js', 'MongoDB'], icon: '⚡' },
-                { year: '2021-Now', skills: ['JavaScript', 'Express', 'PostgreSQL'], icon: '📈' },
+                { year: '2023-Now', skills: ['Next.js 14', 'TypeScript', 'Tailwind CSS'], icon: '🚀' },
+                { year: '2023-Now', skills: ['React', 'Node.js', 'MongoDB'], icon: '⚡' },
+                { year: '2022-Now', skills: ['JavaScript', 'Express', 'PostgreSQL'], icon: '📈' },
                 { year: '2022-Now', skills: ['HTML/CSS', 'Python', 'MySQL'], icon: '🎯' }
               ].map((item, index) => (
                 <div key={index} className={`relative flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>

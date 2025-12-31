@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'E-Learning Platform',
     description: 'A modern learning platform with course management, video streaming, and AI-powered progress tracking. Features interactive quizzes, peer collaboration, and mobile-first design.',
-    tech: ['Next.js 14', 'React.js', 'Tailwind CSS', 'Node.js', 'PostgreSQL'],
+    tech: ['Next.js 14', 'React.js', 'Tailwind CSS', 'Node.js','Laravel', 'PostgreSQL'],
     link: '#',
     github: '#',
     image: '/images/E-Learning.png',
@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'E-Commerce Dashboard',
     description: 'Real-time admin dashboard for managing multi-vendor marketplace with advanced analytics, inventory management, and automated reporting system.',
-    tech: ['React.js', 'Tailwind CSS','Express', 'MySQL'],
+    tech: ['React.js', 'Tailwind CSS','Node.js', 'Express', 'MySQL'],
     link: '#',
     github: '#',
     image: '/images/E-Commerce.png',
@@ -123,7 +123,7 @@ const projects = [
                   {project.featured && (
                     <div className="absolute top-4 left-4">
                       <div className="px-3 py-1 rounded-full bg-gradient-to-r from-blue-500/20 to-cyan-500/20 backdrop-blur-sm border border-blue-500/30">
-                        <span className="text-xs font-medium text-blue-300">⭐ Featured</span>
+                        <span className="text-xs font-medium text-gray-800">⭐ Featured</span>
                       </div>
                     </div>
                   )}
@@ -164,16 +164,6 @@ const projects = [
                   <p className="text-gray-400 mb-6 leading-relaxed">
                     {project.description}
                   </p>
-
-                  {/* Stats */}
-                  <div className="grid grid-cols-3 gap-4 mb-6">
-                    {Object.entries(project.stats).map(([key, value]) => (
-                      <div key={key} className="text-center">
-                        <div className="text-lg font-bold text-white">{value}</div>
-                        <div className="text-xs text-gray-500 capitalize">{key}</div>
-                      </div>
-                    ))}
-                  </div>
 
                   {/* Actions */}
                   <div className="flex items-center justify-between pt-4 border-t border-gray-800/50">

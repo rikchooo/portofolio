@@ -23,8 +23,8 @@ export default function Hero() {
   }, []);
 
   const socialLinks = [
-    { icon: <FiGithub />, href: 'https://github.com', label: 'GitHub' },
-    { icon: <FiLinkedin />, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: <FiGithub />, href: 'https://github.com/rikchooo', label: 'GitHub' },
+    { icon: <FiLinkedin />, href: 'https://linkedin.com/in/rikohrmwn29', label: 'LinkedIn' },
     { icon: <FiMail />, href: 'mailto:rikohrmawan258@gmail.com', label: 'Email' }
   ];
 

@@ -4,10 +4,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FiArrowUp, FiMail, FiMapPin, FiHeart } from 'react-icons/fi';
-import { 
-  FaGithub, FaDiscord, FaInstagram, FaTiktok,
-  FaLinkedin, FaTwitter, FaYoutube, FaCodepen
-} from 'react-icons/fa';
+import { FaGithub, FaDiscord, FaInstagram, FaTiktok,FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -37,7 +34,7 @@ export default function Footer() {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/',
+      url: 'https://linkedin.com/in/rikohrmwn29',
       icon: <FaLinkedin className="w-5 h-5" />,
       color: 'hover:text-[#0A66C2] hover:bg-[#0A66C2]/10',
       gradient: 'from-[#0A66C2]/20 to-[#0A66C2]/10'
@@ -46,7 +43,7 @@ export default function Footer() {
       name: 'TikTok',
       url: 'https://tiktok.com/@rikcho_',
       icon: <FaTiktok className="w-5 h-5" />,
-      color: 'hover:text-[#ff0050] hover:bg-[#000000]/10',
+      color: 'hover:text-[#ffffff] hover:bg-[#000000]/10',
       gradient: 'from-[#000000]/20 to-[#FF0050]/10'
     },
   ];
@@ -61,7 +58,7 @@ export default function Footer() {
   ];
 
   const techStack = [
-    'Next.js', 'React', 'TypeScript', 'Tailwind CSS',
+    'Next.js', 'React.js', 'TypeScript', 'Tailwind CSS',
     'Node.js', 'MongoDB', 'PostgreSQL', 'Docker'
   ];
 
@@ -96,14 +93,14 @@ export default function Footer() {
 
   return (
     <footer className="relative overflow-hidden">
-      {/* Background Effects */}
+      {/* Background */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-gray-900 to-transparent"></div>
         <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/3 right-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
       </div>
 
-      {/* Main Footer Content */}
+      {/* Main Footer */}
       <div className="relative pt-20 pb-10 px-4 sm:px-6 lg:px-8 border-t border-gray-800/30">
         <div className="max-w-7xl mx-auto">
           <motion.div
